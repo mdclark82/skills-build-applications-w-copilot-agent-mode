@@ -1,0 +1,102 @@
+
+.App {
+  text-align: center;
+  background: linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%);
+  min-height: 100vh;
+}
+
+
+.App-logo {
+  height: 60px;
+  margin-right: 16px;
+  pointer-events: none;
+  float: left;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+
+.App-header {
+  background-color: #4a90e2;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: #fff;
+}
+
+
+.App-link {
+  color: #ff6f61;
+  font-weight: bold;
+  text-decoration: underline;
+}
+
+/* Table styling */
+table.table {
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(74,144,226,0.1);
+}
+table.table th {
+  background-color: #4a90e2;
+  color: #fff;
+}
+table.table td {
+  color: #333;
+}
+
+/* Button styling */
+.btn-primary, .btn {
+  background-color: #ff6f61;
+  border-color: #ff6f61;
+  color: #fff;
+}
+.btn-primary:hover, .btn:hover {
+  background-color: #e55d50;
+  border-color: #e55d50;
+}
+
+/* Heading styling */
+h1, h2, h3, h4 {
+  color: #4a90e2;
+  font-weight: 700;
+}
+
+/* Navigation styling */
+.navbar {
+  background-color: #4a90e2 !important;
+}
+.navbar-brand, .nav-link {
+  color: #fff !important;
+}
+.nav-link.active {
+  color: #ff6f61 !important;
+}
+
+/* Card styling */
+.card {
+  border-radius: 12px;
+  box-shadow: 0 2px 8px rgba(74,144,226,0.15);
+}
+
+/* Modal styling */
+.modal-content {
+  border-radius: 12px;
+  box-shadow: 0 2px 8px rgba(74,144,226,0.15);
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
